@@ -1,0 +1,27 @@
+.hero {
+    margin: 220px 0 350px;
+    display: flex;
+    gap: 220px;
+}
+
+.hero__name {
+    width: 636px;
+    height: 300px;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    color: var(--color-text);
+}
+
+.hero__image {
+    width: 349px;
+    height: 349px;
+}
+
+.hero__name--color {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #13B0F5, #E70FAA);
+}

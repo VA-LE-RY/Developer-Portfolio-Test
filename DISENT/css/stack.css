@@ -1,0 +1,30 @@
+.stack {
+    text-align: center;
+    margin-bottom: 215px;
+}
+
+.stack__name {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--color-text);
+}
+
+.stack__description {
+    margin: 50px 0 140px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--color-gray);
+}
+
+.stack__images {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 103px;
+}
+
+.stack__images_image--min {
+    height: 88px;
+}

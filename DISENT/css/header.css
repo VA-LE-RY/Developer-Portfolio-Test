@@ -1,0 +1,9 @@
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navigation {
+    display: flex;
+    gap: 51px;
+}
